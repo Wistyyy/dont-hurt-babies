@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "harder_earlygame",
+  "version": "${version}",
+  "name": "Harder Earlygame",
+  "description": "A harder earlygame",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/harder_earlygame/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "xyz.xenoo.harder_earlygame.client.Harder_earlygameDataGenerator"
+    ],
+    "client": [
+      "xyz.xenoo.harder_earlygame.client.Harder_earlygameClient"
+    ],
+    "main": [
+      "xyz.xenoo.harder_earlygame.HarderEarlygame"
+    ]
+  },
+  "mixins": [
+    "harder_earlygame.mixins.json",
+    {
+      "config": "harder_earlygame.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
