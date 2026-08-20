@@ -1,9 +1,9 @@
-package xyz.xenoo.harder_earlygame.client
+package xyz.xenoo.dont_hurt_babies.client
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 
-class Harder_earlygameDataGenerator : DataGeneratorEntrypoint {
+class DontHurtBabiesDataGenerator : DataGeneratorEntrypoint {
 
     override fun onInitializeDataGenerator(fabricDataGenerator: FabricDataGenerator) {
         val pack = fabricDataGenerator.createPack()

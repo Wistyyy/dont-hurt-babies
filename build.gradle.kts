@@ -27,7 +27,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        register("harder_earlygame") {
+        register("dont_hurt_babies") {
             sourceSet("main")
             sourceSet("client")
         }

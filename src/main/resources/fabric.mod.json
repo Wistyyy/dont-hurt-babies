@@ -1,36 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "harder_earlygame",
+  "id": "dont_hurt_babies",
   "version": "${version}",
-  "name": "Harder Earlygame",
-  "description": "A harder earlygame",
+  "name": "Dont hurt babies",
+  "description": "Do not hurt babies",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/harder_earlygame/icon.png",
+  "icon": "assets/dont_hurt_babies/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "xyz.xenoo.harder_earlygame.client.Harder_earlygameDataGenerator"
+      "xyz.xenoo.dont_hurt_babies.client.DontHurtBabiesDataGenerator"
     ],
     "client": [
-      "xyz.xenoo.harder_earlygame.client.Harder_earlygameClient"
+      "xyz.xenoo.dont_hurt_babies.client.DontHurtBabiesClient"
     ],
     "main": [
-      "xyz.xenoo.harder_earlygame.HarderEarlygame"
+      "xyz.xenoo.dont_hurt_babies.DontHurtBabies"
     ]
-  },
-  "mixins": [
-    "harder_earlygame.mixins.json",
-    {
-      "config": "harder_earlygame.client.mixins.json",
-      "environment": "client"
-    }
-  ],
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-language-kotlin": ">=${kotlin_loader_version}",
-    "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
   }
-}
+  }

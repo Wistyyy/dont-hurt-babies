@@ -1,4 +1,4 @@
-package xyz.xenoo.harder_earlygame
+package xyz.xenoo.dont_hurt_babies
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents
 import net.minecraft.world.effect.MobEffectInstance

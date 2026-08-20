@@ -1,8 +1,8 @@
-package xyz.xenoo.harder_earlygame.client
+package xyz.xenoo.dont_hurt_babies.client
 
 import net.fabricmc.api.ClientModInitializer
 
-class Harder_earlygameClient : ClientModInitializer {
+class DontHurtBabiesClient : ClientModInitializer {
 
     override fun onInitializeClient() {
     }

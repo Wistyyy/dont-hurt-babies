@@ -1,8 +1,8 @@
-package xyz.xenoo.harder_earlygame
+package xyz.xenoo.dont_hurt_babies
 
 import net.fabricmc.api.ModInitializer
 
-class HarderEarlygame : ModInitializer {
+class DontHurtBabies : ModInitializer {
 
     override fun onInitialize() {
         HurtWhileMining().act()

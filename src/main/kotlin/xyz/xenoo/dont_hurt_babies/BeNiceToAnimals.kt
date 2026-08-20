@@ -1,4 +1,4 @@
-package xyz.xenoo.harder_earlygame
+package xyz.xenoo.dont_hurt_babies
 
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents
 import net.minecraft.network.chat.Component
